@@ -26,7 +26,7 @@
       "shuffle": true,
       "collection_id": null,
       "sort": "news",
-      "title": "",
+      "title": "Novidades",
       "headless": false,
       "limit": 12,
       "page": 1
@@ -35,13 +35,17 @@
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
-      "page": 1
+      "page": 1,
+      "sort": "sales",
+      "title": "Mais Vendidos"
     },
     {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
-      "page": 1
+      "page": 1,
+      "sort": "offers",
+      "title": "Ofertas"
     }
   ]
 }
