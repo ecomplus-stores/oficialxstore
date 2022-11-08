@@ -36,6 +36,15 @@
       "shuffle": true,
       "limit": 12,
       "page": 1,
+      "sort": "offers",
+      "collection_id": "624c763d2e405e04ff23f8e3:categories:Camisetas:/categoria-camisetas",
+      "title": "CAMISETAS A PARTIR DE R$39,90"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
       "sort": "sales",
       "title": "Mais Vendidos"
     },
