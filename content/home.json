@@ -24,12 +24,11 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "collection_id": null,
+      "limit": 12,
+      "page": 1,
       "sort": "news",
       "title": "LANÇAMENTOS",
-      "headless": false,
-      "limit": 12,
-      "page": 1
+      "collection_id": "624c763d2e405e04ff23f8e3:categories:Camisetas:/categoria-camisetas"
     },
     {
       "type": "collection-shelf",
@@ -45,8 +44,17 @@
       "limit": 12,
       "page": 1,
       "sort": "offers",
-      "collection_id": "624c763d2e405e04ff23f8e3:categories:Camisetas:/categoria-camisetas",
-      "title": "CAMISETAS A PARTIR DE R$39,90"
+      "title": "CAMISETAS A PARTIR DE R$59,90",
+      "collection_id": "624c763d2e405e04ff23f8e3:categories:Camisetas:/categoria-camisetas"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "624c7a692e405e04ff240a75:categories:Bonés :/categoria-bones",
+      "sort": "news",
+      "title": "OS MELHORES BONÉS"
     }
   ]
 }
