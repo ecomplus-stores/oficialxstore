@@ -88,7 +88,22 @@ if (pathname) {
   if (_.widgets.length) {
     %>
     <script>
-      partytown = { forward: [] };
+      partytown = { 
+        resolveUrl: function (url, location) {
+          switch (url.hostname) {
+            case 'www.googletagmanager.com':
+            case 'www.google-analytics.com':
+            case 'analytics.tiktok.com':
+            case location.hostname:
+              break;
+            default:
+              const proxyUrl = new URL(`https://${location.hostname}/reverse-proxy/`);
+              proxyUrl.searchParams.append('url', url.href);
+              return proxyUrl;
+          };
+        },
+        forward: [],
+      };
     </script>
     <%- await include('@/helpers/widgets-append', {
       _, opt: {}, field: 'headAppend'
