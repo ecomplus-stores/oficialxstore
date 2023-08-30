@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.9735d1e3a78bf980e0b52cae7f724b47.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_384x384.b802ef64b3e12d3b8fac295dad2be2f4.jpeg",
+      "sizes": "384x384",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_192x192.f53f92af84ba566e2f1d49d47edcf7c3.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_128x128.27ee2ca4f4d8dd92aae77e2ee907ed0a.jpeg",
+      "sizes": "128x128",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_96x96.79f35f9fd4902a8186f291ce08351e60.jpeg",
+      "sizes": "96x96",
+      "type": "image/jpeg"
+    }
+  ],
+  "name": "oficialxstore",
+  "short_name": "oficialxstore",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Loja de moda masculina.",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
